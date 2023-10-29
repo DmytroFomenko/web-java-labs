@@ -1,0 +1,18 @@
+INFO  | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:21) - Hello, World!
+DEBUG | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:22) - This Will Be Printed On Debug
+INFO  | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:23) - This Will Be Printed On Info
+WARN  | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:24) - This Will Be Printed On Warn
+ERROR | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:25) - This Will Be Printed On Error
+FATAL | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:26) - This Will Be Printed On Fatal
+INFO  | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:28) - Appending string: Hello, World.
+INFO  | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:31) - Connect to database ... OK
+INFO  | 2022-11-21 19:12:54 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:34) - SELECT ALL RECORDS
+INFO  | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:21) - Hello, World!
+DEBUG | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:22) - This Will Be Printed On Debug
+INFO  | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:23) - This Will Be Printed On Info
+WARN  | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:24) - This Will Be Printed On Warn
+ERROR | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:25) - This Will Be Printed On Error
+FATAL | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:26) - This Will Be Printed On Fatal
+INFO  | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:28) - Appending string: Hello, World.
+INFO  | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:31) - Connect to database ... OK
+INFO  | 2022-11-21 19:14:03 | [main] logging.DemoLoggingLog4J2 (DemoLoggingLog4J2.java:34) - SELECT ALL RECORDS

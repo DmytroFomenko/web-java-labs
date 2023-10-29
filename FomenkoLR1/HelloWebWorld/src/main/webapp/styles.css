@@ -1,0 +1,16 @@
+
+.body {
+    background-color: #f2fffa;
+}
+
+#text {
+    background-color: #fefff9;
+    margin-top: 80px;
+    width: 26%;
+    margin-left: 37%;
+    margin-right: 37%;
+    padding: 35px;
+    border: solid;
+    border-color: aquamarine;
+}
+

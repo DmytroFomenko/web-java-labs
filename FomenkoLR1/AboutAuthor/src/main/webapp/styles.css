@@ -1,0 +1,261 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /*background-color: #4f708f*/;
+    font-family: Trebuchet MS, Helvetica, sans-serif;    /* Если первого шрифта не будет то будет использован второй */
+    text-shadow: 0 0 0.5em black, 0 0 1.2em black;
+}
+
+header {                    /* Свойства ХИДЕРА */
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;        /* отступы Сверху, слева, снизу, справа */
+    background: transparent;    /* Чтоб был прозрачным */
+    float: left;
+    position: fixed;
+}
+
+header #logo {            /* Свойства ЛОГО */
+    color: #dcd7fa;        /* цвет Фоменко Дмитро */
+    cursor: pointer;        /* Когда мышка наведена */
+    text-shadow: 0 0 0.5em black, 0 0 1.2em black;
+    float: left;
+}
+
+header #logo span {        /* Конкретно только для текста */
+    font-size: 1.5em;        /* Размер шрифта */
+    line-height: 48px;
+    margin-left: 40px;
+    font-family: Trebuchet MS, Helvetica, serif;
+}
+
+/* Для адаптивности сайта */
+@media (min-width: 1001px) {    /* Если ширина более 1001рх */
+    #logo {
+        float: left;
+        /*width: 30%;*/
+        font-size: 1.5em;
+    }
+
+    #about {
+        float: right;
+        width: 67%;
+    }
+}
+
+@media (max-width: 1000px) {    /* Если ширина менее 1000рх */
+    #logo {
+        margin-left: 15px;
+        /*width: 100%;*/
+        font-size: 0.8em;
+    }
+
+    /*#about {*/
+    /*    float: right;*/
+    /*    width: fit-content;*/
+
+    /*}*/
+}
+
+#about {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 0.5em black, 0 0 1.2em black;
+}
+
+#about > a {color: #dcd7fa;}         /* Цвет Ссылок */
+
+#about > a:hover {        /* при навождении мышки */
+    color: #a19bc4;
+}
+
+#about > a:not(:last-child) {        /* Для всех ссылок кроме самой правой */
+    margin-right: 7%;
+}
+
+/* Стили для плавающей шапки */
+
+.fixed {
+    z-index: 5000;
+    background-color: #534d7a;
+    border-bottom: 1px solid #aaa2db;
+}
+
+header.fixed #logo {
+    color: #dcd7fa;        /* Цвет Фоменко в плавающей шапке*/
+}
+/*
+.fixed about a {color: #343434}
+.fixed about a:hover {color: #7c7c7c}
+*/
+
+/* Главный блок */
+
+#top {
+    width: 100%;
+    height: 1000px;
+    background-blend-mode: multiply;        /* Для наложения слоев */
+    /*background-color: #3b4a57;*/
+    background-size: cover;
+    text-align: center;
+    color: #dcd7fa;
+}
+
+#top1 {
+    width: 100%;
+    height: 0px;
+    background-blend-mode: multiply;
+    /*background-color: #3b4a57;*/
+    background-size: cover;
+    text-align: center;
+    color: #dcd7fa;
+}
+
+#top.pg0 {
+    background-image: url(hpi.jpg);
+    background-color: #4f708f;
+}
+
+
+#top h1 {
+    padding-top: 8%;
+    font-size: 3.5em;
+}
+
+#top h3 {
+    color: #ccc;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 10%
+}
+
+#mainPright h3 {
+    text-align: right;
+    padding-top: 0%;
+    padding-right: 10%
+}
+
+@media (min-width: 1001px) {
+    #top {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1000px) {
+    #top {
+        font-size: 0.7em;
+    }
+    #mainPright h3 {
+        font-size: 2em;
+    }
+    #top h3 {
+        font-size: 2em;
+    }
+}
+
+
+/*==================================================*/
+
+
+
+#leftblock {
+    float: left;
+    height: 1110px;
+    width: 26%;
+    background-color: #cdcae5;
+    text-shadow: none;
+    padding-left: 2%;
+}
+
+#mycontacts {
+    margin-top: 70px;
+    margin-left: 0%;
+}
+
+#contacts {
+    margin-left: 4%;
+}
+
+#leftblock1 {
+    float: left;
+    height: 1110px;
+    width: 1%;
+    background-color: #b4a9d7;
+    text-shadow: none;
+}
+
+#rightblock1 {
+    float: right;
+    height: 1110px;
+    width: 1%;
+    background-color: #b4a9d7;
+    text-shadow: none;
+}
+#rightblock {
+    float: right;
+    height: 1110px;
+    width: 26%;
+    background-color: #cdcae5;
+}
+
+#headerResume {
+    background-color: #534d7a;
+    height: 71px;
+    border-bottom: 1px solid #aaa2db;
+}
+
+#photo_me_resume {
+    height: 160px;
+    float: left;
+    margin: 0% 2% 2% 0%;
+    border: solid;
+    border-color: #534d7a;
+}
+#void1 {
+    height: 70px;
+}
+
+#fdv {
+    font-family: franklin gothic medium;
+}
+
+#photo_and_name {
+    font-family: "Gill Sans MT";
+    text-shadow: none;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 70px;
+    /*background-color: #87ffa9;*/
+}
+
+#skills.resume {
+    margin-top: 30px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-shadow: none;
+    /*background-color: #bae2ff;*/
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.lists {
+    margin-left: 2%;
+}
+
+
